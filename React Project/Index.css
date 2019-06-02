@@ -20,28 +20,29 @@
 }
 
 .header{
-	position: fixed;
-	margin-bottom: 20px;
+	position: relative;
+	z-index: -1;
 	height: :100%;
 	width: 100%;
-}
-.header h1{
 	text-align: center;
-	margin-right: 160px;
-	margin-left: 160px;
+	font-weight: bolder;
+	font-size: xx-large;
 }
-.logo img{
-	z-index: 1;
-	padding-left: 160px;
+.logo {
+	z-index: 100;
+  	top: 0; 
+  	left: 0;
+  	margin-right: 30px;
 }
 .lis{
 	position: absolute;
-	left: 150px;
-	top: 120px;
+	float: left;
 	width: 400px;
 	height: 400px;
 	color: lime;
-	background-color: #0A0A0A
+	background-color: #0A0A0A;
+	margin-left:145px;
+	margin-top: 5%;
 }
 .lis li{
 	text-align: center;
@@ -51,16 +52,37 @@
 .sometext{
 	text-shadow: #0A0A0A;
 	background-color: lime;
-	position: relative;
 	left: 650px;
-	top: 104px;
 	width: 400px;
 	height: 400px;
+	float: right;
+	margin-top: 5%;
 }
 .sometext p{
 	color: #0A0A0A;
 	text-align: center;
 	vertical-align: middle;
-	
 	font: sans-serif;
+	text-shadow: #0A0A0A;
+}
+.animation{
+  margin-left: -200px;
+  width: 120px;
+  height: 40px;
+  background-color: #EDE053;
+  border-radius: 20px;
+  transition: 1s;
+  line-height: 40px;
+  text-align: center;
+}
+.footer {
+	align-self: center;
+	font-size: xx-large;
+	font-style: italic;
+	font-weight: bolder;
+	background-color:  #0A0A0A;
+	color: lime;
+	margin-top: 29%;
+	height: 400px;
+	vertical-align: middle;
 }

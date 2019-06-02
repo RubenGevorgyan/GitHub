@@ -3,14 +3,16 @@
 <head>
 	<title>Project</title>
 	<link rel="stylesheet" href="Index.css">
+	<script type="text/javascript" src="Index.js"></script>
 </head>
-<body>
+
+<body onload="function()">	
+
+	<header>
 	<div class="header">
-		<h1>Simple Project</h1>
-	</div>
-	<div class="logo">
-		<img src="Data\logo.jpg" align="right" height="100" width="100">
-	</div>
+	Simple Project
+	<img class="logo" src="Data\logo.jpg" align="right" height="100" width="100" style="top:1000">
+	</header>
 	<div class="lis">
 	<ul>
 		<li>Some text</li>
@@ -19,15 +21,18 @@
 	</ul>
 	</div>
 	<div class="sometext">
-		<p >
+		<p>
 			React can be used as a base in the development of single-page or mobile applications, as it's optimal only for its intended use of being the quickest method to fetch rapidly changing data that needs to be recorded. However, fetching data is only the beginning of what happens on a web page, which is why complex React applications usually require the use of additional libraries for state management, routing, and interaction with an API.
 		</p>
 	</div>
 	<div class="sidebar">
-			<a href="#">Home</a>
-			<a href="#">About</a>
-			<a href ="#">Contacts</a>
+			<a id="Home" href="#" onclick="Homefunction()">Home</a>
+			<a id="About"  href="#" onclick="Aboutfunction()">About</a>
+			<a id="Contacts" href ="#" onclick="Contactsfunction()">Contacts</a>
 	</div>
-
+	<div class="animation" id= "animation" onload="function()">Loaded</div>
+	<footer >
+		<h1 class="footer" style="color:lime; align-self: center; vertical-align: middle;"> SOme info here</h1>
+	</footer>
 </body>
 </html>
