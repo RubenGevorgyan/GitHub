@@ -1,6 +1,6 @@
-window.onload = function() {
+function Myfunction() {
   var animation = document.getElementById("animation")
-  animation.style.marginLeft = "400px";
+  animation.style.marginLeft = "550px";
 };
 function Homefunction(){
 	alert("Home was clicked");

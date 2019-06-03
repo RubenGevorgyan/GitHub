@@ -22,7 +22,7 @@
 .header{
 	position: relative;
 	z-index: -1;
-	height: :100%;
+	height:100%;
 	width: 100%;
 	text-align: center;
 	font-weight: bolder;
@@ -54,9 +54,10 @@
 	background-color: lime;
 	left: 650px;
 	width: 400px;
-	height: 400px;
+	height: 360px;
 	float: right;
 	margin-top: 5%;
+
 }
 .sometext p{
 	color: #0A0A0A;
@@ -71,7 +72,7 @@
   height: 40px;
   background-color: #EDE053;
   border-radius: 20px;
-  transition: 1s;
+  transition: 2s;
   line-height: 40px;
   text-align: center;
 }
@@ -83,6 +84,9 @@
 	background-color:  #0A0A0A;
 	color: lime;
 	margin-top: 29%;
-	height: 400px;
+	height: 460px;
 	vertical-align: middle;
+    z-index:4;
+    overflow:visible;
+
 }
